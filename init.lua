@@ -1,2 +1,1 @@
 require("deadpixel")
-print("hello")
