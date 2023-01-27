@@ -1,0 +1,2 @@
+require("deadpixel")
+print("hello")
