@@ -15,7 +15,7 @@ return require('packer').startup(function(use)
 			require("rose-pine").setup()
 			vim.cmd('colorscheme rose-pine')
 		end
-	}) 
+	})
 
 	use({
 		'nvim-treesitter/nvim-treesitter',
