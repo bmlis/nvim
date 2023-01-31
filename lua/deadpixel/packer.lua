@@ -6,7 +6,7 @@ return require('packer').startup(function(use)
 
 	use {
 		'nvim-telescope/telescope.nvim', tag = '0.1.1',
-		requires = { {'nvim-lua/plenary.nvim'} }
+		requires = { {'nvim-lua/plenary.nvim'}, {'nvim-telescope/telescope-project.nvim'} }
 	}
 	use({
 		'rose-pine/neovim',
@@ -26,6 +26,8 @@ return require('packer').startup(function(use)
 	use('tpope/vim-fugitive')
 	use('tpope/vim-commentary')
 	use('tpope/vim-sleuth')
+	use('tpope/vim-surround')
+	use('FraserLee/ScratchPad')
 	use('easymotion/vim-easymotion')
 	use {
 		'VonHeikemen/lsp-zero.nvim',
